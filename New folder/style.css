@@ -1,0 +1,240 @@
+   /*HERO IMAGE*/
+   body, html{
+      height: 100%;
+   }
+   .hero{
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("hero.jpg");
+      height: 50%;
+
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+   }
+
+   .heroText{
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+   }
+
+/*HOME PAGE*/
+#homeinfo{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+#homeinfo > .homei1 > img{
+    padding-left: 150px;
+    width: 67%;
+    height: 300px;
+    }
+#homeinfo > .homei2 > img{
+    padding-left: 150px;
+    width: 67%;
+    height: 300px;
+}
+/*NAVIGATION BAR*/
+#navbar > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+#navbar > ul >li {
+    float: left;
+}
+  
+#navbar > ul > li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+#navbar > ul > li a:hover {
+    background-color: #111;
+}
+/*GENRAL BODY WORK*/
+header{
+    background-color:black;
+}
+
+header > h1{
+    color: #ecdec3;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+h1{
+    text-align: left;
+}
+h2{
+    text-align: center;
+    text-transform: capitalize;
+}
+h3{
+    text-align: center;
+    text-transform: capitalize;
+}
+h4{
+    text-align: center;
+    text-transform: lowercase;
+}
+h5{
+    text-align: center;
+}
+p{
+   text-align: center;
+}
+fieldset{
+   
+   background-color: #ecdec3;
+}
+
+
+/*FOOTER*/
+footer{
+    background-color:#111;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 10px;
+   }
+footer > h3{
+    color: #ecdec3;
+}
+footer > div > ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+footer > div > ul > li{
+    text-align: center;
+}
+
+/* MENUS PAGE */
+
+#party {
+    display:flex;
+}
+#party > p{
+    text-align: center;
+}
+#party > div {
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+}
+
+#lunch{
+    display: flex;
+}
+#lunch > div {
+    width:50%;
+}
+#dressings{
+    display: flex;
+}
+#dressings > div{
+    width: 50%;
+}
+#office2{
+    display:flex;
+ }
+#office2 > div{
+    width: 50%;
+}
+#office3{
+    display: flex;
+} 
+#office3 > div{
+    width: 50%;
+}
+
+#office4{
+    display: flex;
+}
+#office4 > div{
+    width: 33.333%;
+}
+
+/* LOGIN/REGISTER */
+#form {
+    display: flex;
+}
+#form > div{
+    padding-top: 100px;
+    width: 50%;
+    text-align: center;
+    padding-bottom: 180px;
+}
+#form > .vl{
+    border-left: 4px solid black;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 200px;
+}
+
+/*ABOUT US PAGE*/
+#about{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+#about > p{
+    padding-bottom: 50px;
+}
+#aboutimage{
+    display: flex;
+}
+#aboutimage > .baker1{
+    width: 25%;
+}
+#aboutimage > .chef1{
+    width: 25%;
+}
+#aboutimage > .baker2{
+    width: 25%;
+}
+#aboutimage > .cater1{
+    width: 25%;
+}
+#aboutimage > .baker1 > img{
+    height: 200px;
+    width:100%;
+}
+#aboutimage > .chef1 > img{
+    height: 200px;
+    width:100%;
+}
+#aboutimage > .baker2 > img{
+    height: 200px;
+    width:100%;
+}
+#aboutimage > .cater1 > img{
+    height: 200px;
+    width:100%;
+}
+
+/*SPECIALS PAGE*/
+
+#btn{
+
+    width: 155px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+#btn > button{
+    background-color: #ecdec3;
+}
